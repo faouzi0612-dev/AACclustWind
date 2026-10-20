@@ -2,6 +2,7 @@
 ######## En R ##########
 # Ver si el paquete existe en la biblioteca
 "AACclustWind" %in% rownames(installed.packages())
+
 remove.packages("AACclustWind")
 
 
