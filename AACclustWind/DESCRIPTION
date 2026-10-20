@@ -1,0 +1,27 @@
+Package: AACclustWind
+Type: Package
+Title: Categorical Clustering Methods with Quality Index Evaluation
+Version: 1.0.0
+Date: 2026-10-19
+Authors@R: person("Your", "Name", email = "your.email@example.com", role = c("aut", "cre"))
+Description: A comprehensive collection of categorical clustering methods including
+    AAC (Alpha-19) algorithm in sequential, parallel, and Rcpp variants, hierarchical
+    methods (Ward, DIANA), density-based methods (DBSCAN, HDBSCAN), Spectral Clustering,
+     and POP (Partitioning Around PAMoids). Includes Quality
+    Index (QI) evaluation for categorical partitions and silhouette analysis.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports:
+    Rcpp (>= 1.0.0),
+    cluster,
+    dbscan,
+    amap,
+    parallel,
+    stats,
+    utils
+LinkingTo: Rcpp
+NeedsCompilation: yes
+SystemRequirements: C++17
+Config/roxygen2/version: 8.1.1

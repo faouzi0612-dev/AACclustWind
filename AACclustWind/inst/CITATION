@@ -1,0 +1,8 @@
+citHeader("To cite AACclustWind in publications use:")
+bibentry(
+  bibtype  = "Manual",
+  title    = "AACclust: Categorical Clustering Methods with Quality Index Evaluation",
+  author   = person("Tarik", "Faouzi"),
+  year     = 2026,
+  note     = "R package version 1.0.0"
+)
